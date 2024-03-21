@@ -22,11 +22,11 @@ How production budget affects the returns of the movie?
  ## Data Understanding
  Our data is stored in a folder named zippedData. The data is sourced from a variety of movie aggregation sites:
 
--Box Office Mojo
--IMDB
--Rotten Tomatoes
--TheMovieDB
--The Numbers
+1. Box Office Mojo
+2. IMDB
+3. Rotten Tomatoes
+4. TheMovieDB
+5. The Numbers
 
 ## Results
 ##### First analysis
@@ -60,8 +60,8 @@ Understanding the correlation helps studios allocate their budgets more effectiv
 
 ## Next Steps
 Here are other ideas to explore for future analysis:
--**Segmentation**: Microsoft should consider segmenting their movies according to age and gender in order to meet the needs of their audience .
--**Include difference in the runtime of movies vs. ratings** :Does the duration of a movie always indicate its quality? This information would help Microsoft grasp how to create their own future "classics" and determine the optimal length for maximizing ratings.
--**Strategic Planning:** Armed with the correlation coefficient, studios can develop strategic plans for their future movie productions. They can set budget targets based on revenue expectations and adjust their marketing and distribution strategies accordingly.
+>1. **Segmentation**: Microsoft should consider segmenting their movies according to age and gender in order to meet the needs of their audience .
+>2. **Include difference in the runtime of movies vs. ratings** :Does the duration of a movie always indicate its quality? This information would help Microsoft grasp how to create their own future "classics" and determine the optimal length for maximizing ratings.
+>3. **Strategic Planning:** Armed with the correlation coefficient, studios can develop strategic plans for their future movie productions. They can set budget targets based on revenue expectations and adjust their marketing and distribution strategies accordingly.
 ## Presentation link
- ~ **Link:**
+ > **Link:**[presentation link](Film-Fortune-Telling/Film_Fortune_Telling_presentation.pdf)
