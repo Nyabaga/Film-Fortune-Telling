@@ -56,6 +56,7 @@ Understanding the correlation helps studios allocate their budgets more effectiv
 1. **Focus on producing Drama and Comedy movie genres:** Since the Drama genre has the highest ratings, it would be wise to start production of movies in that genre. Microsoft can also include the Comedy genre as it is second in popularity.
 2. **Runtime:** Microsoft should focus on producing movies with a runtime of 90 minutes.From the graph it is evident that as runtime increases the frequency of movies.
 3.**Production budget:** Microsoft should heavily invest in their production budget in order to increase their returns. 
+In conclusion Microsoft should cosider these recommendations when starting their film studio.
 
 ## Next Steps
 Here are other ideas to explore for future analysis:
