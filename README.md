@@ -28,6 +28,10 @@ Phase one project: Predicting movie studio success. (project description: https:
 From my analys on the movie.info csv file the most common gener is Drama. The geners that were given include:Drama, Comedy, Comedy Drama, Drama Mistery and Suspence, Art House and International|Drama. From this analysis I would advise Microsoft to put more emphasis on Drama and Comedy movies.
 
 ![most popular gener](images/Most%20popular%20genre%20.png)
+##### Second analysis
+![Runtime distribution](images/Runtime%20distribution.png)
+##### Third analysis
+
 
 
 ## Conclusion
