@@ -9,7 +9,12 @@ Phase one project: Predicting movie studio success. (project description: https:
 
  > Business Problem : Microsoft wants to start a film company
  
- Microsoft decides to venture into the world of movie production, but they're new to the game. I have been given a task  to figure out what kinds of movies are popular right now. Your job is to dig into the data and give them advice on what types of movies they should focus on making. With my insights, Microsoft can make smart decisions about their film projects and increase their chances of success in the industry.
+ Microsoft decides to venture into the world of movie production, but they're new to the game. I have been given a task  to figure out what kinds of movies are popular right now. Your job is to dig into the data and give them advice on what types of movies they should focus on making. With my insights, Microsoft can make smart decisions about their film projects and increase their chances of success in the industry.I formulated these three questions to help analyse the data and come up with the required findings.
+
+Which movie genres are the most popular?
+What is the runtime distribution?
+How production budget affects the returns of the movie?
+
  
  ## Business Understanding
  As a data scientist delving into the movie industry, it's evident that this field is complex, involving various players and factors shaping a film's success. Crucial aspects include script caliber, celebrity allure, promotional tactics, release timing, and audience genre preferences. Action and adventure flicks usually fare well, whereas specialized genres like documentaries may attract a smaller audience. Our analysis integrates diverse data sources like box office data, social media metrics, and critical reviews, utilizing methodologies such as regression and sentiment analysis to uncover trends. For Microsoft's new movie studio, our aim is to utilize these insights to inform their film production strategies effectively. By grasping the nuances of the industry and employing data-driven approaches, Microsoft can optimize their movie lineup, ensuring greater success and profitability in this competitive arena.
@@ -37,15 +42,22 @@ The mode runtime is 90 minutes and the frequency of movies within a sample of th
 ![Runtime distribution](images/Runtime%20distribution.png)
 
 ##### Third analysis
+The correlation coefficient between ROI and Production Budget being approximately -0.048 suggests a very weak negative correlation between the two variables. In other words, changes in production budget do not significantly predict changes in ROI.Overall, while the correlation coefficient indicates a weak negative correlation between ROI and production budget, it's crucial for movie studios to conduct comprehensive analyses considering various factors to make informed decisions regarding budget allocation and maximizing returns.
 
+![Runtime distribution](images/ROI%20vs%20Production%20budget.png)
 
+Find the correlation of ROI and World wide gross.
+![Runtime distribution](images/production%20budget%20vs%20worldwide%20gross.png)
+
+Understanding the correlation helps studios allocate their budgets more effectively. If there's a strong positive correlation between production budget and worldwide gross revenue, investing more in production may lead to higher returns. There seems to be a very strong corelation between Production budget and Worldwide Gross Revenue. I would advice Microsoft to invest more on their production budget.
 
 ## Conclusion
-
+##### My recommendations are :
 
 ## Next Steps
 Here are other ideas to explore for future analysis:
 ~ **Segmentation**: Microsoft should consider segmenting their movies according to age and gender in order to meet the needs of their audience .
 ~**Include difference in the runtime of movies vs. ratings** :Does the duration of a movie always indicate its quality? This information would help Microsoft grasp how to create their own future "classics" and determine the optimal length for maximizing ratings.
+~**Strategic Planning:** Armed with the correlation coefficient, studios can develop strategic plans for their future movie productions. They can set budget targets based on revenue expectations and adjust their marketing and distribution strategies accordingly.
 ## Presentation link
  ~ **Link:**
