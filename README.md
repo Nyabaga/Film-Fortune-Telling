@@ -22,11 +22,11 @@ How production budget affects the returns of the movie?
  ## Data Understanding
  Our data is stored in a folder named zippedData. The data is sourced from a variety of movie aggregation sites:
 
-~ Box Office Mojo
-~ IMDB
-~ Rotten Tomatoes
-~ TheMovieDB
-~ The Numbers
+-Box Office Mojo
+-IMDB
+-Rotten Tomatoes
+-TheMovieDB
+-The Numbers
 
 ## Results
 ##### First analysis
@@ -44,20 +44,23 @@ The mode runtime is 90 minutes and the frequency of movies within a sample of th
 ##### Third analysis
 The correlation coefficient between ROI and Production Budget being approximately -0.048 suggests a very weak negative correlation between the two variables. In other words, changes in production budget do not significantly predict changes in ROI.Overall, while the correlation coefficient indicates a weak negative correlation between ROI and production budget, it's crucial for movie studios to conduct comprehensive analyses considering various factors to make informed decisions regarding budget allocation and maximizing returns.
 
-![Runtime distribution](images/ROI%20vs%20Production%20budget.png)
+![ROI vs production budget](images/ROI%20vs%20Production%20budget.png)
 
 Find the correlation of ROI and World wide gross.
-![Runtime distribution](images/production%20budget%20vs%20worldwide%20gross.png)
+![production Budget vs worldwide gross](images/production%20budget%20vs%20worldwide%20gross.png)
 
 Understanding the correlation helps studios allocate their budgets more effectively. If there's a strong positive correlation between production budget and worldwide gross revenue, investing more in production may lead to higher returns. There seems to be a very strong corelation between Production budget and Worldwide Gross Revenue. I would advice Microsoft to invest more on their production budget.
 
 ## Conclusion
 ##### My recommendations are :
+1. **Focus on producing Drama and Comedy movie genres:** Since the Drama genre has the highest ratings, it would be wise to start production of movies in that genre. Microsoft can also include the Comedy genre as it is second in popularity.
+2. **Runtime:** Microsoft should focus on producing movies with a runtime of 90 minutes.From the graph it is evident that as runtime increases the frequency of movies.
+3.**Production budget:** Microsoft should heavily invest in their production budget in order to increase their returns. 
 
 ## Next Steps
 Here are other ideas to explore for future analysis:
-~ **Segmentation**: Microsoft should consider segmenting their movies according to age and gender in order to meet the needs of their audience .
-~**Include difference in the runtime of movies vs. ratings** :Does the duration of a movie always indicate its quality? This information would help Microsoft grasp how to create their own future "classics" and determine the optimal length for maximizing ratings.
-~**Strategic Planning:** Armed with the correlation coefficient, studios can develop strategic plans for their future movie productions. They can set budget targets based on revenue expectations and adjust their marketing and distribution strategies accordingly.
+-**Segmentation**: Microsoft should consider segmenting their movies according to age and gender in order to meet the needs of their audience .
+-**Include difference in the runtime of movies vs. ratings** :Does the duration of a movie always indicate its quality? This information would help Microsoft grasp how to create their own future "classics" and determine the optimal length for maximizing ratings.
+-**Strategic Planning:** Armed with the correlation coefficient, studios can develop strategic plans for their future movie productions. They can set budget targets based on revenue expectations and adjust their marketing and distribution strategies accordingly.
 ## Presentation link
  ~ **Link:**
