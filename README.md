@@ -28,8 +28,14 @@ Phase one project: Predicting movie studio success. (project description: https:
 From my analys on the movie.info csv file the most common gener is Drama. The geners that were given include:Drama, Comedy, Comedy Drama, Drama Mistery and Suspence, Art House and International|Drama. From this analysis I would advise Microsoft to put more emphasis on Drama and Comedy movies.
 
 ![most popular gener](images/Most%20popular%20genre%20.png)
+
 ##### Second analysis
+The mode runtime is 90 minutes and the frequency of movies within a sample of the data that have a runtime of 90 minutes in 72 movies.
+- This analysis shows that most people love watching movies that have a runtime of 90 minutes.
+- The graph is also skewed to the right. This shows that as the runtime increases the frequency of the movies decreases. This shows that, people generaly prefer movies with lesser runtime.
+
 ![Runtime distribution](images/Runtime%20distribution.png)
+
 ##### Third analysis
 
 
